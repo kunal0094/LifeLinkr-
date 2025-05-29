@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* <!-- ----------------------------------navber----------------------------- --> */
+.img {
+  width: 180px;
+}
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+}
+.navbar-nav .nav-item {
+  margin: 0px 13px 0px 13px;
+  opacity: 0.9;
+  font-size: 19px;
+}
+
+.WhatApp_btn {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 7px 30px 7px 30px;
+  margin-right: 22px;
+}
+span {
+  cursor: pointer;
+}
+
+/* <!-- --------------------------------------------------Heading-------------------------------- --> */
+
+.form-box {
+  background-color: #16325b;
+}
+/* -----------------------------------form------------------------ */
+
+.form-section {
+  background-color: #0c2e5b;
+  padding: 40px;
+  border-radius: 12px;
+  margin: 50px auto;
+  color: white;
+}
+.form-control,
+.form-check-input {
+  border-radius: 12px;
+}
+.form-control::placeholder {
+  color: #ccc;
+}
+
+.terms-text {
+  color: white;
+}
+.terms-text a {
+  color: #feca3d;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* <!-- ---------------------------------------------------Cards---------------------------------------- --> */
+.card-body i {
+  font-size: 50px;
+  margin: 15px 0px 20px 0px;
+  color: #7ecff1;
+}
+
+/* <!-- ----------------------------------------------------------FAQs---------------------------------------------- --> */
+.full_img {
+  width: 100%;
+}
+.more {
+  text-decoration: underline;
+}
+.more:hover {
+  color: #16325b;
+  cursor: pointer;
+}
+.fa-arrow-right {
+  color: #d59134;
+  margin-left: 9px;
+  font-size: 20px;
+}
+/* --------------------------------------------footer-------------------------------
+    
+    */
+.footer_img {
+  width: 300px;
+}
